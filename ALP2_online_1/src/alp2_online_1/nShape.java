@@ -48,7 +48,7 @@ public class nShape {
         this.x.add(new Vector2(x, y));
     }
 
-    public static double perimeter() {
+    public double perimeter() {
         double[] distances = new double[x.size()];
         for (int i = 0; i < x.size(); i++) {
             if (i < x.size() - 1) {
@@ -60,13 +60,27 @@ public class nShape {
         return sum(distances);
     }
 
-    public static double sum(double[] a) {
+    public double sum(double[] a) {
         double sum = 0;
         for (int i = 0; i < a.length; i++) {
             sum += a[i];
         }
         return sum;
     }
+    
+    public double area() {
+        double sum = 0;
+        for (int i = 0; i < x.size(); i++) {
+            if(i != x.size()-1){
+            sum += (x.get(i).getX()*x.get(i+1).getY()-x.get(i+1).getX()*x.get(i).getY());
+            }else{
+                sum += (x.get(i).getX()*x.get(0).getY()-x.get(0).getX()*x.get(i).getY());
+            }
+            
+        }
+        return sum/2;
+    }
+    
 
     public Vector2 nearest() {
         double minDistance = Integer.MAX_VALUE;
