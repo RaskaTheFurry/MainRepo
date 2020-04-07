@@ -4,18 +4,33 @@
  * and open the template in the editor.
  */
 package alp2_online_1;
-
+import java.util.Scanner;
 /**
  *
  * @author Uzivatel
  */
 public class NewMain {
 
-    /**
-     * @param args the command line arguments
-     */
+    static Scanner sc = new Scanner(System.in);
+    
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        nShape shape = new nShape();
+        boolean stop = false;
+        while (!stop) {
+            System.out.println("1. Add Bod\n2. count area and perimeter\n3. konec");
+            switch(sc.nextInt()){
+                case 1:
+                    shape.add(sc.nextDouble(), sc.nextDouble());
+                    break;
+                case 2:
+                    System.out.println("Objem: " + shape.perimeter() + " ; Obsah: " + shape.area());
+                    break;
+                case 3:
+                    stop = true;
+                    break;
+            }
+        }
     }
     
 }
