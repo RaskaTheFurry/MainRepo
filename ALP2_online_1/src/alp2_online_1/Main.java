@@ -34,6 +34,9 @@ public class Main {
         a[3] = new Vector2(3,0);
         
         System.out.println(perimeter());
+        
+        
+        
     }
 
     public static double perimeter() {
