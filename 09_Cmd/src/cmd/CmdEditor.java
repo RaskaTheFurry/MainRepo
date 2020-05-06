@@ -38,6 +38,10 @@ public class CmdEditor implements CmdInterface {
             //System.out.println("CD");
             executeCd();
         }
+        if(command.params[0].equals("exit")){
+            //System.out.println("CD");
+            this.isRunning = false;
+        }
         //isRunning = false;
         return command.execute(actualDir);
     }
