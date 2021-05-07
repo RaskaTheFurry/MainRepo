@@ -12,7 +12,7 @@ public class Kalendar {
     private static Scanner sc = new Scanner(System.in);
     
     public static void main(String[] args) {
-        KalendarArray calendar = new KalendarArray(16,4,2020);
+        KalendarArray calendar = new KalendarArray(10,4,2021);
         System.out.format("%02d.%02d.%d \n", calendar.getDay(),calendar.getMonth(),calendar.getYear());
         printArray(calendar.getCalendar());
         boolean stop = false;
