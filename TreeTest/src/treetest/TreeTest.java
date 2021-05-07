@@ -18,7 +18,7 @@ public class TreeTest {
         Tree tree = new Tree();
         boolean end = false;
         int number;
-        while(sc.hasNextInt()){
+        while(!end){
             
             number = sc.nextInt();
             if(number >= 0){
