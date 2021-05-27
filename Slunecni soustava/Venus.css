@@ -1,0 +1,27 @@
+div.Venus-ring{
+    position: absolute;
+    width: 2100px;
+    height: 2100px;
+    margin-left: 47.83%;
+    
+    margin-top: 47.83%;
+    
+    border-style: dashed;
+    border-width: 2px;
+    border-color: rgba(150,150,255,0.08);
+    border-radius: 1050px;
+    animation: spinLeftis 225s linear 0s infinite;
+}
+div.Venus{
+    height: 94.88px;
+    width: 94.88px;
+    
+    margin-left: 50%;
+    margin-top: -2.2%;
+    position: absolute;
+    background-color: orange;
+    border-radius: 47.44px;
+    box-shadow: inset 0px 50px 70px rgb(0,0,0);
+
+    
+}

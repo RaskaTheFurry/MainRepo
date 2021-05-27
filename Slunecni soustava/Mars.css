@@ -1,0 +1,56 @@
+div.Mars-ring{
+    
+height: 4500px;
+    
+width: 4500px;
+    
+border-color: rgba(200,200,255,0.08);
+    
+border-style: dashed;
+    
+border-width: 2px;
+    
+position: absolute;
+    
+margin-left: 41.80%;
+    
+    margin-top: 41.80%;
+    
+    border-radius: 2250px;
+    animation: spinLefti 686.2s linear 0s infinite;
+}
+div.Mars{
+    height: 53px;
+    width: 53px;
+    
+    margin-left: 50%;
+    
+    margin-top: -0.55%;
+    position: absolute;
+    background-color: rgb(255,50,50);
+    border-radius: 26.5px;;    box-shadow: inset 0px 50px 70px rgb(0,0,0);
+    
+}
+
+div.MoonPhobos-ring{
+    margin-left: -80%;
+    margin-top: -80%;
+    height: 136px;
+    width: 136px;
+    border-style: dashed;
+    border-width: 0.5px;
+    border-radius: 100px;
+    border-color: rgba(200,200,255,0.08);
+    animation: spinLefti 0.3s linear 0s infinite;
+}
+div.MoonPhobos{
+    height: 0.348px;
+    width: 0.348px;
+    border-radius: 0.174px;
+    background-color:lightgray;
+    margin-left: 7% ;
+    margin-top: 7% ;
+    box-shadow: inset 0px 10px 20px rgb(0,0,0);
+    
+    animation: spinLeftis 0.3s linear 0s infinite;
+}

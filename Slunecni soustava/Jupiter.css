@@ -1,0 +1,29 @@
+div.Jupiter-ring{
+    height: 15600px;
+    width: 15600px;
+    border-color: rgba(200,200,255,0.08);
+    border-style: dashed;
+    border-width: 2px;
+    position: absolute;
+    margin-left: 14.07%;
+    
+    margin-top: 14.08%;
+    
+    border-radius: 7800px;
+    animation: spinLefti 4330.6s linear 0s infinite;
+}
+div.Jupiter{
+    height: 1120px;
+    width: 1120px;
+    
+    margin-left: 50%;
+    
+    margin-top: -3.2%;
+    position: absolute;
+    background-color: rgb(139,69,19);
+    border-radius: 560px;
+    box-shadow: inset 0px 500px 600px rgb(0,0,0);
+
+    
+}
+

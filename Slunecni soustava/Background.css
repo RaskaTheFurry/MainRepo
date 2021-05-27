@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+div.pozadi{
+    position: relative;
+    left: 0%;
+    top: 0%;
+    width: 20000px;
+    height: 20000px;
+    background-color: black;
+    margin: 0%;
+    color: black;
+    
+}

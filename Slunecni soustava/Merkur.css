@@ -1,0 +1,28 @@
+div.Merkur-ring{
+    position: absolute;
+    width: 1200px;
+    height: 1200px;
+    margin-left: 50.09%;
+    
+    margin-top: 50.09%;
+    
+    border-style: dashed;
+    border-width: 2px;
+    border-color: rgba(150,150,255,0.08);
+    border-radius: 1050px;
+    animation: spinLefti 88s linear 0s infinite;
+}
+div.Merkur{
+    height: 37.63px;
+    width: 37.63px;
+    
+    margin-left: 50%;
+    margin-top: -1.5%;
+    position: absolute;
+    background-color: rgb(255,222,173);
+    border-radius: 47.44px;
+    box-shadow: inset 0px 25px 30px rgb(0,0,0);
+    
+    
+}
+

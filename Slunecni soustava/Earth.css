@@ -1,0 +1,62 @@
+div.Earth-ring{
+    height: 3000px;
+    width: 3000px;
+    border-color: rgba(200,200,255,0.08);
+    border-style: dashed;
+    border-width: 2px;
+    position: absolute;
+    margin-left: 45.575%;
+    
+    margin-top: 45.62%;
+    
+    border-radius: 1500px;
+    animation: spinLefti 365s linear 0s infinite;
+    
+    
+}
+div.Earth{
+    height: 100px;
+    width: 100px;
+    
+    margin-left: 50%;
+    
+    margin-top: -1.7%;
+    position: absolute;
+    background-color: rgb(150,150,255);
+    border-radius: 50px;
+    box-shadow: inset 0px 50px 70px rgb(0,0,0);
+    
+}
+@keyframes spinLefti{
+    100% {transform: rotate(-360deg) translate(0px,0px);}
+    
+    0% {transform: rotate(0deg) transalte(0px , 0px);}
+}
+@keyframes spinLeftis{
+    100% {transform: rotate(360deg) translate(0px,0px);}
+    
+    0% {transform: rotate(0deg) transalte(0px , 0px);}
+}
+
+div.Moon-ring{
+    margin-left: -50%;
+    margin-top: -50%;
+    height: 200px;
+    width: 200px;
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 100px;
+    border-color: rgba(200,200,255,0.08);
+    animation: spinLefti 30s linear 0s infinite;
+}
+div.Moon{
+    height: 27.25px;
+    width:27.25px;
+    border-radius: 13.625px;
+    background-color:lightgray;
+    margin-left: 7% ;
+    margin-top: 7% ;
+    box-shadow: inset 0px 10px 20px rgb(0,0,0);
+    
+    animation: spinLeftis 30s linear 0s infinite;
+}
